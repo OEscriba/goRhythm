@@ -1,4 +1,0 @@
-e-mail:
-    admin@admin.com
-senha:
-    admin
