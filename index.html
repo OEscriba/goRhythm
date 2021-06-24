@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goRhythm - Página inicial</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/popup.css">
+
+    <!-- CSS Popup Login -->
+    <link rel="stylesheet" href="css/login.css">
+
+    <!-- CSS Carrossel -->
+    <link rel="stylesheet" href="owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/menu-go.png" alt="logomarca">
+        <div class="botoes">
+            <a href="javascript:;" onclick="abrir('popup-login')">Login</a>
+            <a href="register.html" id="register">Registre-se</a>
+        </div>
+    </header>
+    <div class="content-box">
+        <div class="text">
+            <small>
+                Olá DEV, seja muito bem-vindo ao nosso player de música!
+            </small>
+            <h1> 
+            <center>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur optio sed obcaecati consequuntur
+            </center> 
+            </h1>
+        </div>
+        <div class="carrosel-playlists">
+            <h1>Nossas Playlists!</h1><br>
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img src="playlists/DUBSTEP/files/background.jpeg" class="capa-playlist"></div>
+                <div class="item"><img src="playlists/ELETRONICA/files/background.jpeg" class="capa-playlist"></div>
+                <div class="item"><img src="playlists/JAZZ/files/background.jpeg" class="capa-playlist"></div>
+                <div class="item"><img src="playlists/LOFI/files/background.jpg" class="capa-playlist"></div>
+                <div class="item"><img src="playlists/ROCK/files/background.jpeg" class="capa-playlist"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <small>goRhythm</small>
+    </footer>
+
+    <!-- Popups -->
+    <div class="popup" id="popup-login">
+        <form action="">
+            <a href="javascript:;" onclick="fechar('popup-login')"><img src="img/Fechar Popup.png" alt="fechar"></a>
+            <h3>LOGIN</h3>
+            <div class="login">
+                <input id="email" type="text" name="email" placeholder="Digite seu Email" required>
+                <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+            </div>
+            <small>
+                <center>Não tem uma conta? <br> <a href="register.html">Registre-se agora</a></center>
+            </small>
+            <div class="submit">
+                <input type="submit" name="submit" value="Enviar" placeholder="enviar"> <!-- deixei um placeholder para o scream reader -->
+            </div> 
+            <script src="scripts/login.js"></script>
+        </form>
+    </div>
+
+    <script src="owl/jquery.min.js"></script>
+    <script src="owl/owl.carousel.min.js"></script>
+    <script src="owl/setup.js"></script>
+    <script src="scripts/popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goRhythm - Playlists</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="playlists/DUBSTEP/style.css">
+    <link rel="stylesheet" href="owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/menu-go.png" alt="logomarca" class="logo"></a>
+    </header>
+    <div class="carrosel-playlists">
+        <h1>PLAYLISTS</h1><br>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <h2>DUBSTEP</h2>
+                <img src="playlists/DUBSTEP/files/background.jpeg" class="capa-playlist">
+            </div>
+            <div class="item">
+                <h2>SYNTHWAVE</h2>
+                <img src="playlists/ELETRONICA/files/background.jpeg" class="capa-playlist">
+            </div>
+            <div class="item">
+                <h2>JAZZ</h2>
+                <img src="playlists/JAZZ/files/background.jpeg" class="capa-playlist">
+            </div>
+            <div class="item">
+                <h2>LO-FI</h2>
+                <img src="playlists/LOFI/files/background.jpg" class="capa-playlist">
+            </div>
+            <div class="item">
+                <h2>ROCK</h2>
+                <img src="playlists/ROCK/files/background.jpeg" class="capa-playlist">
+            </div>
+        </div>
+    </div>
+
+    <!-- Popups -->
+    <div id="player">
+        <h4><i class="material-icons">equalizer</i> GoRhythm</h4>
+        <div class="card">
+          <div class="card-image"></div>
+          <div class="card-content">
+            <h5>Title</h5>
+            <p class="artist">Artist</p>
+            <audio autoplay controls></audio>
+          </div>
+        </div>
+        <script src="playlists/DUBSTEP/data.js"></script>
+        <script src="playlists/DUBSTEP/index.js"></script>
+        <script src="playlists/DUBSTEP/player.js"></script>
+    </div>
+    <script src="owl/jquery.min.js"></script>
+    <script src="owl/owl.carousel.min.js"></script>
+    <script src="owl/setup.js"></script>
+    <script src="scripts/popup.js"></script>
+</body>
+</html>
