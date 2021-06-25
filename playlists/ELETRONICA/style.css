@@ -1,33 +1,20 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css";
 @import "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css";
 
-.popup {
-  display: none;
-  position: fixed;
-  flex-direction: column;
+body {
+  height: 100vh;
+  background-color: #444;
+  display: flex;
   align-items: center;
   justify-content: center;
-
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-
-  z-index: 4;
 }
 
-.player {
+#player {
   background-color: #333;
   width: 90%;
   max-width: 375px;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 3px 1px -2px rgba(0, 0, 0, 0.12), 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
-}
-
-.fechar-popup {
-  width: 20px;
-  height: 20px;
 }
 
 .card {
@@ -66,7 +53,6 @@ h4 {
 .card-content p{
   color: #fff;
 }
-
 audio {
   width: 100%;
   margin-top: 30px;

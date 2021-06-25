@@ -1,21 +1,20 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css";
 @import "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css";
 
+body {
+  height: 100vh;
+  background-color: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #player {
   background-color: #333;
   width: 90%;
   max-width: 375px;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 3px 1px -2px rgba(0, 0, 0, 0.12), 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
-}
-
-h1 {
-  margin-top: 20px;
-  margin-bottom: 0;
-}
-
-h2 {
-  margin-top: 0;
 }
 
 .card {

@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>goRhythm - Playlists</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="playlists/ELETRONICA/style.css">
     <link rel="stylesheet" href="owl/owl.carousel.min.css">
     <link rel="stylesheet" href="owl/owl.theme.default.min.css">
 </head>
@@ -19,136 +18,38 @@
         <div class="owl-carousel owl-theme">
             <div class="item">
                 <h2>DUBSTEP</h2>
-                <a href="javascript:;" onclick="abrir('player-dubstep')">
+                <a href="playlists/DUBSTEP/index.html">
                     <img src="playlists/DUBSTEP/files/background.jpeg" class="capa-playlist">
                 </a>
             </div>
             <div class="item">
                 <h2>SYNTHWAVE</h2>
-                <a href="javascript:;" onclick="abrir('player-eletronica')">
+                <a href="playlists/ELETRONICA/index.html">
                     <img src="playlists/ELETRONICA/files/background.jpeg" class="capa-playlist">
                 </a>
             </div>
             <div class="item">
                 <h2>JAZZ</h2>
-                <a href="javascript:;" onclick="abrir('player-jazz')">
+                <a href="playlists/JAZZ/index.html">
                     <img src="playlists/JAZZ/files/background.jpeg" class="capa-playlist">
                 </a>
             </div>
             <div class="item">
                 <h2>LO-FI</h2>
-                <a href="javascript:;" onclick="abrir('player-lofi')">
+                <a href="playlists/LOFI/index.html">
                     <img src="playlists/LOFI/files/background.jpg" class="capa-playlist">
                 </a>
             </div>
             <div class="item">
                 <h2>ROCK</h2>
-                <a href="javascript:;" onclick="abrir('player-rock')">
+                <a href="playlists/ROCK/index.html">
                     <img src="playlists/ROCK/files/background.jpeg" class="capa-playlist">
                 </a>
             </div>
         </div>
     </div>
-
-    <!-- Popups -->
-    <div class="popup" id="player-dubstep">
-        <div class="player">
-            <a href="javascript:;" onclick="fechar('player-dubstep')">
-                <img src="img/Fechar Popup.png" class="fechar-popup">
-            </a>
-            <h4><i class="material-icons">equalizer</i> GoRhythm</h4>
-            <div class="card">
-                <div class="card-image"></div>
-                <div class="card-content">
-                    <h5>Title</h5>
-                    <p class="artist">Artist</p>
-                    <audio autoplay controls></audio>
-                </div>
-            </div>
-            <script src="playlists/DUBSTEP/data.js"></script>
-            <script src="playlists/DUBSTEP/index.js"></script>
-            <script src="playlists/DUBSTEP/player.js"></script>
-        </div>
-    </div>
-    <div class="popup" id="player-eletronica">
-        <div class="player">
-            <a href="javascript:;" onclick="fechar('player-eletronica')">
-                <img src="img/Fechar Popup.png" class="fechar-popup">
-            </a>
-            <h4><i class="material-icons">equalizer</i> GoRhythm</h4>
-            <div class="card">
-                <div class="card-image"></div>
-                <div class="card-content">
-                    <h5>Title</h5>
-                    <p class="artist">Artist</p>
-                    <audio autoplay controls></audio>
-                </div>
-            </div>
-            <script src="playlists/ELETRONICA/data.js"></script>
-            <script src="playlists/ELETRONICA/index.js"></script>
-            <script src="playlists/ELETRONICA/player.js"></script>
-        </div>
-    </div>
-    <div class="popup" id="player-jazz">
-        <div class="player">
-            <a href="javascript:;" onclick="fechar('player-jazz')">
-                <img src="img/Fechar Popup.png" class="fechar-popup">
-            </a>
-            <h4><i class="material-icons">equalizer</i> GoRhythm</h4>
-            <div class="card">
-                <div class="card-image"></div>
-                <div class="card-content">
-                    <h5>Title</h5>
-                    <p class="artist">Artist</p>
-                    <audio autoplay controls></audio>
-                </div>
-            </div>
-            <script src="playlists/JAZZ/data.js"></script>
-            <script src="playlists/JAZZ/index.js"></script>
-            <script src="playlists/JAZZ/player.js"></script>
-        </div>
-    </div>
-    <div class="popup" id="player-lofi">
-        <div class="player">
-            <a href="javascript:;" onclick="fechar('player-lofi')">
-                <img src="img/Fechar Popup.png" class="fechar-popup">
-            </a>
-            <h4><i class="material-icons">equalizer</i> GoRhythm</h4>
-            <div class="card">
-                <div class="card-image"></div>
-                <div class="card-content">
-                    <h5>Title</h5>
-                    <p class="artist">Artist</p>
-                    <audio autoplay controls></audio>
-                </div>
-            </div>
-            <script src="playlists/LOFI/data.js"></script>
-            <script src="playlists/LOFI/index.js"></script>
-            <script src="playlists/LOFI/player.js"></script>
-        </div>
-    </div>
-    <div class="popup" id="player-rock">
-        <div class="player">
-            <a href="javascript:;" onclick="fechar('player-rock')">
-                <img src="img/Fechar Popup.png" class="fechar-popup">
-            </a>
-            <h4><i class="material-icons">equalizer</i> GoRhythm</h4>
-            <div class="card">
-                <div class="card-image"></div>
-                <div class="card-content">
-                    <h5>Title</h5>
-                    <p class="artist">Artist</p>
-                    <audio autoplay controls></audio>
-                </div>
-            </div>
-            <script src="playlists/ROCK/data.js"></script>
-            <script src="playlists/ROCK/index.js"></script>
-            <script src="playlists/ROCK/player.js"></script>
-        </div>
-    </div>
     <script src="owl/jquery.min.js"></script>
     <script src="owl/owl.carousel.min.js"></script>
     <script src="owl/setup.js"></script>
-    <script src="scripts/popup.js"></script>
 </body>
 </html>
