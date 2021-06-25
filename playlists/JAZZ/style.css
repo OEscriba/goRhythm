@@ -57,3 +57,26 @@ audio {
   width: 100%;
   margin-top: 30px;
 }
+
+.div-botao {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.botao {
+  border: none;
+  background-color: rgba(0,0,0,.50);
+  color: white;
+  text-decoration: none;
+  
+  border-radius: 15px;
+  padding: 15px;
+  margin-right: 10px;
+  font-size: 16px;
+  
+  cursor: pointer;
+  transition: .3s ease all;
+}
