@@ -1,3 +1,7 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -55,16 +59,35 @@ form input[type="password"] {
     margin: .75rem 0 0 0;
     border-radius: .5rem;
     background-color: #fff;
-    color: #fff;
+    color: #333;
+    padding-left: 5px;
+}
+
+.register {
+    align-items: center;
+    justify-content: center;
+
 }
 
 .submit {
+    box-sizing: border-box;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: .5rem;
     margin-bottom: -1rem;
+    text-decoration: none;
+    color: #333;
+    padding: .6rem 2rem;
+    border: none;
+    border-radius: .8rem;
+    background:	#F0E665;
+}
+
+.submit a{
+    text-decoration: none;
+    color: #333;
 }
 
 .submit input {

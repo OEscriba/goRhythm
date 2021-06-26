@@ -101,3 +101,23 @@ header a:hover {
 .capa-playlist {
     border-radius: 10px;
 }
+
+@media (max-width: 1024px) {
+    .botoes {
+        width: 30%;
+    }
+}
+
+.submit {
+    text-decoration: none;
+    color: #333;
+    padding: .6rem 2rem;
+    border: none;
+    border-radius: .8rem;
+    background:	#F0E665;
+}
+
+.submit a{
+    text-decoration: none;
+    color: #333;
+}
