@@ -103,7 +103,7 @@ form input[type="password"] {
 }
 
 small {
-   color: 	#00FF00;
+   color: black;
     display: flex;
     justify-content: center;
     margin-top: .5rem;
@@ -111,10 +111,10 @@ small {
 
 small a {
     text-decoration: none;
-    color: 	#00FF00;
+    color: 	black;
     margin-left: 8px;
 }
 
 small a:hover {
-    text-decoration: underline 	#00FF00;
+    text-decoration: underline black;
 }
