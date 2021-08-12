@@ -1,10 +1,6 @@
 # goRhythm
-## Portugues
-Repositório para o desenvolvimento de um projeto academico referente a uma matéria do curso de Análise e desenvolvimento de sistemas, presente no primeiro ciclo. Este projeto
-é a criação de um site de música onde em HTML, CSS e JS configuramos do zero o site de música goRhythm. Tal projeto é sem fins lucrativos e salva os direitos para os artistas
-das músicas e imagens presentes no atual trabalho.
+## Português
+Este repositório foi criado para o desenvolvimento de um projeto acadêmico do curso de Análise e Desenvolvimento de Sistemas, no 1º semestre. Este foi nosso primeiro projeto em grupo através do GitHub. Nele, criamos do zero um site de música em HTML, CSS e JavaScript: o goRhythm. Este projeto não tem fins lucrativos, todos os direitos autorais estão reservados aos respectivos donos.
 
 ## English
-This repository was created for development of an academic project referring to a subject of the Analysis and Systems Development course, present in the first cycle. This
-project is the creation of a music site, using HTML, CSS and JS we set up the goRhythm music site from scratch. Such a project is non-profit, we saves the rights for artists
-of the songs and images that we used on current work.
+This repository was created for the development of an academic project of the Systems Analysis & Development course, in the 1º semester. This was our first project in group using GitHub. In it, we created from scratch a music site in HTML, CSS and JavaScript: goRhythm. This is a non-profit project, all rights are reserved to it's respective owners.
